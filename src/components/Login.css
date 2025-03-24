@@ -1,0 +1,18 @@
+
+.LoginButton {
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(to right, #57401e00, #c59d1a00);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    cursor: pointer;
+}
+
+.LoginButton:hover {
+    background: linear-gradient(to right, #ffeb3b, #ffcc00); 
+    transform: scale(1.05); 
+    color: rgb(0, 0, 0);
+}
